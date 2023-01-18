@@ -4,36 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2be023c3-5d7a-40e4-9756-3dc33ddfc41a" name="Changes" comment="first commit 1">
-      <change afterPath="$PROJECT_DIR$/images/icons/IDEA-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/Telegram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/allure-Report-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/allure-ee-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/browserstack.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/git-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/gradle-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/java-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/jenkins-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/junit5-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/selenide-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/selenoid-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/screens/AllureGraphs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/screens/AllureReport.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/screens/AllureTestOpsDashboard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/screens/AllureTestOpsTesCases.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/screens/AllureTestSuites.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/screens/AllureTestSuites2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/screens/Jenkins.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/screens/JenkinsMain.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/screens/Jira.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/screens/Telegram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/screens/video.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/cypress/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/cypress/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/cypress/config/UserProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/cypress/config/UserProperties.java" afterDir="false" />
-    </list>
+    <list default="true" id="2be023c3-5d7a-40e4-9756-3dc33ddfc41a" name="Changes" comment="second commit change logo" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -262,6 +233,21 @@
       <option name="presentableId" value="Default" />
       <updated>1673980772908</updated>
     </task>
+    <task id="LOCAL-00001" summary="second commit 1">
+      <created>1674035747880</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674035747880</updated>
+    </task>
+    <task id="LOCAL-00002" summary="second commit change logo">
+      <created>1674035893724</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674035893724</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -279,7 +265,9 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="first commit 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit 1" />
+    <MESSAGE value="second commit 1" />
+    <MESSAGE value="second commit change logo" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit change logo" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
