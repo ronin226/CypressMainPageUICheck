@@ -15,7 +15,6 @@ public class TestBase {
 
     @BeforeAll
     static void configure() {
-//    Configuration.holdBrowserOpen = true;
         Configuration.baseUrl = "https://www.cypress.io";
         Configuration.browserSize = "1920x1080";
         if (STAND == "selenoid") {
@@ -33,7 +32,9 @@ public class TestBase {
         Attach.screenshotAs("Last screenshot");
         Attach.pageSource();
         Attach.browserConsoleLogs();
-        Attach.addVideo();
+        if (STAND == "selenoid") {
+            Attach.addVideo();
+        }
     }
 }
 

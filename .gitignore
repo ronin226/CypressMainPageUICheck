@@ -4,11 +4,7 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
+
 .idea
 *.iws
 *.iml
@@ -43,3 +39,13 @@ src/test/resources/config/user.properties
 ### Mac OS ###
 .DS_Store
 /.idea/
+/gradle/
+/notifications/
+/settings.gradle
+/gradlew.bat
+/gradlew
+/notifications/
+/gradle/
+/build/
+/.idea/
+/.gradle/

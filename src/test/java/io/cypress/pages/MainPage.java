@@ -14,7 +14,7 @@ public class MainPage {
             buttonNPM = $$("[type=\"button\"]").find(text("npm install cypress")),
             installOverlay = $(".pointer-events-auto.relative.flex");
 
-    private final static String TITLE_TEXT = "With Cypress, you can easily create tests for your modern web applications, debug them visually, and automatically run them in your continous integration builds.";
+    private final static String TITLE_TEXT = "Test. Automate.";
     private final static String NPM_TITLE_TEXT = "Installing Cypress";
     private final static String NPM_TEXT = "Click to copy the command below to paste into your terminal:";
     private final static String DD_TEXT = "Download the Cypress application directly to give it a try:";
