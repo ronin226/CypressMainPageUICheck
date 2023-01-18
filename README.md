@@ -166,10 +166,3 @@ E --> A
 
 [Вернуться к оглавлению ⬆](#Содержание)
 
-# <a>Видео запуска тестов</a>
-
-<p align="center">
-  <img src="images/screens/video.gif" alt="JiraIntegration">
-</p>
-
-[Вернуться к оглавлению ⬆](#Содержание)
