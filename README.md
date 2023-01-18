@@ -2,7 +2,7 @@
 
 <h2 align="center">" Учетная работа автотеста главной страницы cypress.io "</h2>
 <p  align="center">
-<a href="https://www.cypress.io"><img src="./images/icons/img.png" width="950"></a>
+<a href="https://www.cypress.io"><img src="./images/icons/img_1.png" width="950"></a>
 </p>
 
 # <a name="Содержание">Содержание</a>
