@@ -16,7 +16,7 @@ public class TestBase {
     @BeforeAll
     static void configure() {
 //    Configuration.holdBrowserOpen = true;
-        Configuration.baseUrl = "https://www.cypress.io/";
+        Configuration.baseUrl = "https://www.cypress.io";
         Configuration.browserSize = "1920x1080";
         if (STAND == "selenoid") {
             Configuration.remote = "https://"+SELENOIDUSER+":"+SELENOIDKEY+"@selenoid.autotests.cloud/wd/hub";
