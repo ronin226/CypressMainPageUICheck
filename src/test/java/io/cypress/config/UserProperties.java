@@ -15,6 +15,8 @@ public class UserProperties {
             BOTTOKEN = CONFIG.bottoken(),
             CHATID = CONFIG.chatid(),
             STAND = CONFIG.stand(),
+            SELENOIDUSER = CONFIG.selenoiduser(),
+            SELENOIDKEY = CONFIG.selenoidkey(),
             COMPANYNAME = CONFIG.companyname();
 
     @Config.Sources({"system:properties", "classpath:config/user.properties"})
@@ -39,6 +41,10 @@ public class UserProperties {
         String chatid();
         @Key("stand")
         String stand();
+        @Key("selenoiduser")
+        String selenoiduser();
+        @Key("selenoidkey")
+        String selenoidkey();
 
     }
 }

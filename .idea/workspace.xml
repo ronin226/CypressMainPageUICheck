@@ -4,34 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2be023c3-5d7a-40e4-9756-3dc33ddfc41a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/AllurePlugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-notifications-4.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notifications/telegram.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/data/Sections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/cypress/SimpleExampleTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/cypress/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/cypress/config/UserProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/cypress/helpers/Attach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/cypress/pages/LogIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/cypress/pages/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/cypress/pages/RegistrationFormPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/cypress/pages/components/CalendarComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/cypress/pages/components/ResultsModal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/cypress/tests/MainPageCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/cypress/utilities/MyUtilities.java" afterDir="false" />
+    <list default="true" id="2be023c3-5d7a-40e4-9756-3dc33ddfc41a" name="Changes" comment="first commit 1">
+      <change afterPath="$PROJECT_DIR$/images/icons/IDEA-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icons/Telegram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icons/allure-Report-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icons/allure-ee-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icons/browserstack.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icons/git-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icons/gradle-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icons/java-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icons/jenkins-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icons/junit5-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icons/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icons/selenide-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icons/selenoid-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/screens/AllureGraphs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/screens/AllureReport.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/screens/AllureTestOpsDashboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/screens/AllureTestOpsTesCases.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/screens/AllureTestSuites.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/screens/AllureTestSuites2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/screens/Jenkins.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/screens/JenkinsMain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/screens/Jira.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/screens/Telegram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/screens/video.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/cypress/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/cypress/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/cypress/config/UserProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/cypress/config/UserProperties.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +84,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -93,18 +95,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/ronin226/ideaprojects/cypressSiteUItest",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "io.qameta.allure.idea.settings.ProjectSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ronin226/ideaprojects/cypressSiteUItest&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;io.qameta.allure.idea.settings.ProjectSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -272,6 +274,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="first commit 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit 1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
