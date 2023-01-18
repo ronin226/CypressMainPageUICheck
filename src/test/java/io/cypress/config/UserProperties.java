@@ -19,7 +19,7 @@ public class UserProperties {
             SELENOIDKEY = CONFIG.selenoidkey(),
             COMPANYNAME = CONFIG.companyname();
 
-    @Config.Sources({"system:properties", "classpath:config/user.properties"})
+    @Config.Sources({ "classpath:config/user.properties","system:properties"})
     private interface UserConfig extends Config {
 
         @Key("username")

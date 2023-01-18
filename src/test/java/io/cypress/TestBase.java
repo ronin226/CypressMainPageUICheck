@@ -1,5 +1,6 @@
 package io.cypress;
 
+import com.codeborne.selenide.Selenide;
 import io.cypress.helpers.Attach;
 
 import org.junit.jupiter.api.BeforeAll;
@@ -35,6 +36,7 @@ public class TestBase {
         if (STAND == "selenoid") {
             Attach.addVideo();
         }
+        Selenide.closeWebDriver();
     }
 }
 

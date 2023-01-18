@@ -9,8 +9,8 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class MainPage {
     private SelenideElement
-            buttonInstall = $("[type=\"button\"][data-cy=\"install\"]"),
-            buttonLogIn = $$("a").find(exactText(" Log In ")),
+            buttonInstall = $("[type=\"button\"][data-cy=\"header-install\"]"),
+            buttonLogIn = $("[data-cy=\"header-login\"]"),
             buttonNPM = $$("[type=\"button\"]").find(text("npm install cypress")),
             installOverlay = $(".pointer-events-auto.relative.flex");
 
