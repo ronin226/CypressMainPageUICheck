@@ -40,12 +40,8 @@ src/test/resources/config/user.properties
 .DS_Store
 /.idea/
 /gradle/
-/notifications/
 /settings.gradle
 /gradlew.bat
 /gradlew
-/notifications/
-/gradle/
 /build/
-/.idea/
 /.gradle/
