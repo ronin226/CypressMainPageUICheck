@@ -1,6 +1,6 @@
 # CypressMainPageUICheck
 
-<h2 align="center">" Учетная работа автотеста главной страницы cypress.io "</h2>
+<h2 align="center">" Учебная работа автотеста главной страницы cypress.io "</h2>
 <p  align="center">
 <a href="https://www.cypress.io"><img src="./images/icons/img_1.png" width="400"></a>
 </p>
@@ -11,11 +11,8 @@
 + [Варианты запуска](#Варианты-запуска)
     + [Команды для gradle](#команды-для-gradle)
     + [Запуск в Jenkins](#запуск-в-jenkins)
-+ [Telegram уведомления](#Telegram-уведомления)
 + [Результаты тестов в Allure Report](#Результаты-тестов-в-Allure-Report)
 + [Интеграция с Allure TestOps](#Интеграция-с-Allure-TestOps)
-+ [Интеграция с Jira](#Интеграция-с-Jira)
-+ [Видео запуска тестов](#Видео-запуска-тестов)
 
 
 # <a name="Описание">Описание</a>
@@ -70,19 +67,13 @@ gradle clean test
 
 [Вернуться к оглавлению ⬆](#Содержание)
 
-## <a name="Запуск в Jenkins">Запуск в [Jenkins](https://jenkins.autotests.cloud/job/dostavka.magnit.ru/)</a>
+## <a name="Запуск в Jenkins">Запуск в [Jenkins](https://jenkins.autotests.cloud/job/15CupressUI/)</a>
 Главная страница сборки:
 <p  align="center">
-<img src="images/screens/JenkinsMain.png" width="950">
+<img src="images/screens/jenkins1.png" width="950">
 </p>
 
-Параметризованное задание Jenkins может быть запущено с необходимыми ***tag*** и ***runIn***:
-<p  align="center">
-<img src="images/screens/Jenkins.png" alt="JenkinsBuildParameters" width="950">
-</p>
-
-Конфиденциальная информация (имена для входа и пароли) хранится в зашифрованном виде в хранилище учетных данных Jenkins.\
-И относительно безопасно передается в сборку аргументами gradle, а его значения маскируются в логах.
+Параметры и личные данные тестовой учетной записи могу быть сохранены как в файле конфигурации в проекте, так и переданы в настройках запуска Jenkins
 
 После завершения сборки результаты тестирования доступны в:
 >- <code><strong>*Allure Report*</strong></code>
@@ -98,7 +89,7 @@ Telegram-бот отправляет краткий отчет в указанн
 
 [Вернуться к оглавлению ⬆](#Содержание)
 
-# <a name="AllureReport">Результаты тестов в [Allure Report](https://jenkins.autotests.cloud/job/dostavka.magnit.ru/19/allure/)</a>
+# <a name="AllureReport">Результаты тестов в [Allure Report](https://jenkins.autotests.cloud/job/jobname.ru/19/allure/)</a>
 
 ## Главная страница
 Главная страница отчета Allure содержит следующие блоки:
@@ -130,38 +121,25 @@ Telegram-бот отправляет краткий отчет в указанн
 
 [Вернуться к оглавлению ⬆](#Содержание)
 
-# <a>Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/1668/test-cases?treeId=3201)</a>
+# <a>Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/casesurl)</a>
 > Ссылка доступна только авторизованным пользователям.
 
-Тест-кейсы в проекте импортируются и постоянно обновляются из кода,
-поэтому нет необходимости в синхронизации ручных тест-кейсов и автотестов.\
-Достаточно создать и обновить автотест в коде и тест-кейс всегда будет в актуальном состоянии.
 
 ## Allure TestOps Dashboard
 
 <p align="center">
-  <img src="images/screens/AllureTestOpsDashboard.png" alt="AllureTestOpsTests" width="950">
+  <img src="images/screens/allureto1ui.png" alt="AllureTestOpsTests" width="950">
 </p>
 
-```mermaid
-stateDiagram-v2
-state "Тест создан/обновлен в коде" as A
-state "Запускается сборка в Jenkins" as B
-state "Сборка в Jenkins завершена" as C
-state "Запуск Allure TestOps, связанный со сборкой, отмеченной как закрытая" as D
-state "Все выполненные тест-кейсы автоматически создаются/обновляются в соответствии с кодом" as E
-[*] --> A
-A --> B
-B --> C
-C --> D
-D --> E
-E --> A
-```
 
 ## Allure TestOps Test Cases
 
+Тест-кейсы в проект импортируются из кода,
+поэтому нет необходимости в синхронизации ручных тест-кейсов и автотестов.
+Достаточно создать и обновить автотест в коде.
+
 <p align="center">
-  <img src="images/screens/AllureTestOpsTesCases.png" alt="AllureTestOpsTests" width="950">
+  <img src="images/screens/allureTOcases.png" alt="AllureTestOpsTests" width="950">
 </p>
 
 [Вернуться к оглавлению ⬆](#Содержание)
