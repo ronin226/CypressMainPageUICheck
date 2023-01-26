@@ -14,10 +14,10 @@ public class MainPage {
             buttonNPM = $$("[type=\"button\"]").find(text("npm install cypress")),
             installOverlay = $(".pointer-events-auto.relative.flex");
 
-    private final static String TITLE_TEXT = "Test. Automate.";
-    private final static String NPM_TITLE_TEXT = "Installing Cypress";
-    private final static String NPM_TEXT = "Click to copy the command below to paste into your terminal:";
-    private final static String DD_TEXT = "Download the Cypress application directly to give it a try:";
+    private final static String TITLE_TEXT = "Test. Automate.",
+                                NPM_TITLE_TEXT = "Installing Cypress",
+                                NPM_TEXT = "Click to copy the command below to paste into your terminal:",
+                                DD_TEXT = "Download the Cypress application directly to give it a try:";
 
     public MainPage openMainPage() {
         step("открыть главную страницу", () -> {

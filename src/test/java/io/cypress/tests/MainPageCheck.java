@@ -1,7 +1,7 @@
 package io.cypress.tests;
 
 import io.cypress.TestBase;
-import io.cypress.pages.LogIn;
+import io.cypress.pages.LogInPage;
 import io.cypress.pages.MainPage;
 import io.qameta.allure.Owner;
 
@@ -15,7 +15,7 @@ import org.junit.jupiter.api.Test;
 
 public class MainPageCheck extends TestBase {
     MainPage mainPage = new MainPage();
-    LogIn login = new LogIn();
+    LogInPage loginPage = new LogInPage();
 
     @Test
     @Owner("Kalachev D.")
@@ -59,7 +59,7 @@ public class MainPageCheck extends TestBase {
 
         switchTo().window(1);
 
-        login
+        loginPage
                 .checkLogInProviderButtonGoogle()
                 .checkLogInProviderButtonSSO()
                 .checkLogInProviderButtonGitHub()

@@ -6,7 +6,7 @@ import static io.qameta.allure.Allure.step;
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.*;
 
-public class LogIn {
+public class LogInPage {
     private SelenideElement
             buttonLogInByEmail = $(".btn-provider-email"),
             buttonLogInByGitHub = $(".btn-provider-github"),
@@ -16,56 +16,56 @@ public class LogIn {
             inputPassword = $("input[type=\"password\"]"),
             submitButton = $("button[type=\"submit\"]");
 
-    public LogIn checkLogInProviderButtonGoogle() {
+    public LogInPage checkLogInProviderButtonGoogle() {
         step("проверить наличие кнопки провайдера входа Google ", () -> {
             buttonLogInByGoogle.should(exist);
         });
         return this;
     }
 
-    public LogIn checkLogInProviderButtonSSO() {
+    public LogInPage checkLogInProviderButtonSSO() {
         step("проверить наличие кнопки провайдера входа SSO ", () -> {
             buttonLogInBySSO.should(exist);
         });
         return this;
     }
 
-    public LogIn checkLogInProviderButtonGitHub() {
+    public LogInPage checkLogInProviderButtonGitHub() {
         step("проверить наличие кнопки провайдера входа GitHub ", () -> {
             buttonLogInByGitHub.should(exist);
         });
         return this;
     }
 
-    public LogIn checkLogInProviderButtonEmail() {
+    public LogInPage checkLogInProviderButtonEmail() {
         step("проверить наличие кнопки провайдера входа Email ", () -> {
             buttonLogInByEmail.should(exist);
         });
         return this;
     }
 
-    public LogIn clickLogInProviderButtonEmail() {
+    public LogInPage clickLogInProviderButtonEmail() {
         step("нажать на кнопку провайдера входа Email ", () -> {
             buttonLogInByEmail.click();
         });
         return this;
     }
 
-    public LogIn fillEmailField(String emailText) {
+    public LogInPage fillEmailField(String emailText) {
         step("заполнить поле Email ", () -> {
             inputEmail.setValue(emailText);
         });
         return this;
     }
 
-    public LogIn fillPasswordField(String passwordText) {
+    public LogInPage fillPasswordField(String passwordText) {
         step("заполнить поле Password", () -> {
             inputPassword.setValue(passwordText);
         });
         return this;
     }
 
-    public LogIn clickSubmit() {
+    public LogInPage clickSubmit() {
         step("нажать на кнопку входа ", () -> {
             submitButton.click();
         });
