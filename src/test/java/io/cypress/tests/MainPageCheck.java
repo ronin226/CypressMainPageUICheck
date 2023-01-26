@@ -16,12 +16,10 @@ import org.junit.jupiter.api.Test;
 public class MainPageCheck extends TestBase {
     MainPage mainPage = new MainPage();
     LogInPage loginPage = new LogInPage();
-
     @Test
     @Owner("Kalachev D.")
     @DisplayName("Проверка наличия элементов на главной странице")
     void MainPageElements() {
-
         mainPage
                 .openMainPage()
                 .checkButtonNavBar("Product")
@@ -32,27 +30,23 @@ public class MainPageCheck extends TestBase {
                 .checkButtonNPM()
                 .checkButtonLogIn()
                 .checkButtonInstall();
-
     }
 
     @Test
     @Owner("Kalachev D.")
     @DisplayName("Проверка оверлея при вызове кнопки NPM Install")
     void MainPageNPMOverlay() {
-
         mainPage
                 .openMainPage()
                 .checkButtonNPM()
                 .clickButtonNPM()
                 .checkInstallOverlay();
-
     }
 
     @Test
     @Owner("Kalachev D.")
     @DisplayName("Проверка логина через UI")
     void MainPagelogInUI() {
-
         mainPage
                 .openMainPage()
                 .clickButtonLogIn();
