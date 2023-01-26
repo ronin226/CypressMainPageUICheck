@@ -9,42 +9,31 @@ public class UserProperties {
     private static final UserConfig CONFIG = ConfigFactory.create(UserConfig.class, System.getProperties());
 
     public static final String
-            USERNAME = CONFIG.username(),
+            USERNAME = CONFIG.userName(),
             PASSWORD = CONFIG.password(),
             EMAIL = CONFIG.email(),
-            BOTTOKEN = CONFIG.bottoken(),
-            CHATID = CONFIG.chatid(),
             STAND = CONFIG.stand(),
-            SELENOIDUSER = CONFIG.selenoiduser(),
-            SELENOIDKEY = CONFIG.selenoidkey(),
-            COMPANYNAME = CONFIG.companyname();
+            SELENOIDUSER = CONFIG.selenoidUser(),
+            SELENOIDKEY = CONFIG.selenoidKey(),
+            COMPANYNAME = CONFIG.companyName();
 
     @Config.Sources({ "classpath:config/user.properties","system:properties"})
     private interface UserConfig extends Config {
 
-        @Key("username")
-        String username();
-
+        @Key("userName")
+        String userName();
         @Key("password")
         String password();
-
         @Key("email")
         String email();
-
-        @Key("companyname")
-        String companyname();
-
-        @Key("bottoken")
-        String bottoken();
-
-        @Key("chatid")
-        String chatid();
+        @Key("companyName")
+        String companyName();
         @Key("stand")
         String stand();
-        @Key("selenoiduser")
-        String selenoiduser();
-        @Key("selenoidkey")
-        String selenoidkey();
+        @Key("selenoidUser")
+        String selenoidUser();
+        @Key("selenoidKey")
+        String selenoidKey();
 
     }
 }

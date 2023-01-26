@@ -16,15 +16,15 @@ public class TestBase {
 
     @BeforeAll
     static void configure() {
+        DesiredCapabilities capabilities = new DesiredCapabilities();
         Configuration.baseUrl = "https://www.cypress.io";
         Configuration.browserSize = "1920x1080";
         if (STAND == "selenoid") {
             Configuration.remote = "https://"+SELENOIDUSER+":"+SELENOIDKEY+"@selenoid.autotests.cloud/wd/hub";
+            capabilities.setCapability("enableVNC", true);
+            capabilities.setCapability("enableVideo", true);
         }
         SelenideLogger.addListener("allure", new AllureSelenide());
-        DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability("enableVNC", true);
-        capabilities.setCapability("enableVideo", true);
         Configuration.browserCapabilities = capabilities;
     }
 
