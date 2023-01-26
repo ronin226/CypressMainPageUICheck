@@ -83,7 +83,7 @@ gradle clean test
 # <a>Telegram уведомления</a>
 Telegram-бот отправляет краткий отчет в указанный телеграм-чат по результатам каждой сборки.
 <p  align="center">
-<img src="images/screens/Telegram.png" width="550">
+<img src="images/screens/telegram.png" width="550">
 </p>
 
 [Вернуться к оглавлению ⬆](#Содержание)
