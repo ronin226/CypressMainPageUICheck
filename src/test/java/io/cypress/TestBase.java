@@ -19,7 +19,7 @@ public class TestBase {
         DesiredCapabilities capabilities = new DesiredCapabilities();
         Configuration.baseUrl = "https://www.cypress.io";
         Configuration.browserSize = "1920x1080";
-        if (STAND == "selenoid") {
+        if (STAND.equals("selenoid")) {
             Configuration.remote = "https://"+SELENOIDUSER+":"+SELENOIDKEY+"@selenoid.autotests.cloud/wd/hub";
             capabilities.setCapability("enableVNC", true);
             capabilities.setCapability("enableVideo", true);
@@ -33,7 +33,7 @@ public class TestBase {
         Attach.screenshotAs("Last screenshot");
         Attach.pageSource();
         Attach.browserConsoleLogs();
-        if (STAND == "selenoid") {
+        if (STAND.equals("selenoid")) {
             Attach.addVideo();
         }
         Selenide.closeWebDriver();
